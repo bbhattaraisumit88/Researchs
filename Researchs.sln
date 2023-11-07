@@ -11,9 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_CallBackExample", "3_Call
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_Async_Void", "4_Async_Void\4_Async_Void.csproj", "{C2D49B9A-8337-4DDC-9170-68551F022813}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Service_Bus_Queue_Publisher", "5_Service_Bus_Queue_Publisher\5_Service_Bus_Queue_Publisher.csproj", "{D5BA6213-07D8-4931-BD31-09526409157F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_Service_Bus_Queue_Publisher", "5_Service_Bus_Queue_Publisher\5_Service_Bus_Queue_Publisher.csproj", "{D5BA6213-07D8-4931-BD31-09526409157F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_Service_Bus_Queue_Subscriber", "6_Service_Bus_Queue_Subscriber\6_Service_Bus_Queue_Subscriber.csproj", "{1C252747-503A-4018-B217-F04506575D58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_Service_Bus_Queue_Subscriber", "6_Service_Bus_Queue_Subscriber\6_Service_Bus_Queue_Subscriber.csproj", "{1C252747-503A-4018-B217-F04506575D58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_ProtoBuf_Json_Alternative", "7_ProtoBuf_Json_Alternative\7_ProtoBuf_Json_Alternative.csproj", "{648861EB-29C1-450C-B111-B939DEDD53AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_GRPC", "8_GRPC\8_GRPC.csproj", "{FEB517E9-F56F-4EA9-81D5-5677CF8A2596}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{1C252747-503A-4018-B217-F04506575D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C252747-503A-4018-B217-F04506575D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C252747-503A-4018-B217-F04506575D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{648861EB-29C1-450C-B111-B939DEDD53AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648861EB-29C1-450C-B111-B939DEDD53AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648861EB-29C1-450C-B111-B939DEDD53AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648861EB-29C1-450C-B111-B939DEDD53AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB517E9-F56F-4EA9-81D5-5677CF8A2596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB517E9-F56F-4EA9-81D5-5677CF8A2596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB517E9-F56F-4EA9-81D5-5677CF8A2596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB517E9-F56F-4EA9-81D5-5677CF8A2596}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
