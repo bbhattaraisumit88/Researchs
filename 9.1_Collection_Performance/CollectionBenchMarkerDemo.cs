@@ -1,15 +1,12 @@
-﻿namespace _9._0_IEnumerable_Vs_List;
+﻿using BenchmarkDotNet.Attributes;
 
-internal class Program
+namespace _9._1_Collection_Performance;
+
+[MemoryDiagnoser]
+public class CollectionBenchMarkerDemo
 {
-    private static void Main(string[] args)
-    {
-        IEnumerableExample();
-        ListExample();
-        Console.ReadLine();
-    }
-
-    private static void ListExample()
+    [Benchmark]
+    public static void ListExample()
     {
         var records = GetAll().ToList();
         int count1 = records.Count();
@@ -18,7 +15,8 @@ internal class Program
         bool hasGreaterThanTen2 = records.Any(q => q > 10);
     }
 
-    private static void IEnumerableExample()
+    [Benchmark]
+    public static void IEnumerableExample()
     {
         var records = GetAll();
         int count1 = records.Count();
