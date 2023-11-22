@@ -6,7 +6,7 @@ namespace _9._1_Collection_Performance;
 public class CollectionBenchMarkerDemo
 {
     [Benchmark]
-    public static void ListExample()
+    public void ListExample()
     {
         var records = GetAll().ToList();
         int count1 = records.Count();
@@ -16,7 +16,7 @@ public class CollectionBenchMarkerDemo
     }
 
     [Benchmark]
-    public static void IEnumerableExample()
+    public void IEnumerableExample()
     {
         var records = GetAll();
         int count1 = records.Count();
@@ -25,7 +25,7 @@ public class CollectionBenchMarkerDemo
         bool hasGreaterThanTen2 = records.Any(q => q > 10);
     }
 
-    private static IEnumerable<int> GetAll()
+    private IEnumerable<int> GetAll()
     {
         for (int i = 0; i < 10; i++)
         {
