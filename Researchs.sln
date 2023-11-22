@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_Service_Bus_Queue_Publish
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_Service_Bus_Queue_Subscriber", "6_Service_Bus_Queue_Subscriber\6_Service_Bus_Queue_Subscriber.csproj", "{1C252747-503A-4018-B217-F04506575D58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_ProtoBuf_Json_Alternative", "7_ProtoBuf_Json_Alternative\7_ProtoBuf_Json_Alternative.csproj", "{648861EB-29C1-450C-B111-B939DEDD53AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_ProtoBuf_Json_Alternative", "7_ProtoBuf_Json_Alternative\7_ProtoBuf_Json_Alternative.csproj", "{648861EB-29C1-450C-B111-B939DEDD53AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_GRPC", "8_GRPC\8_GRPC.csproj", "{FEB517E9-F56F-4EA9-81D5-5677CF8A2596}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_GRPC", "8_GRPC\8_GRPC.csproj", "{FEB517E9-F56F-4EA9-81D5-5677CF8A2596}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_IEnumerable_Vs_List", "9_IEnumerable_Vs_List\9_IEnumerable_Vs_List.csproj", "{61324FAD-5CA5-48D3-9BAF-83F85E7D2EDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{FEB517E9-F56F-4EA9-81D5-5677CF8A2596}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEB517E9-F56F-4EA9-81D5-5677CF8A2596}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEB517E9-F56F-4EA9-81D5-5677CF8A2596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61324FAD-5CA5-48D3-9BAF-83F85E7D2EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61324FAD-5CA5-48D3-9BAF-83F85E7D2EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61324FAD-5CA5-48D3-9BAF-83F85E7D2EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61324FAD-5CA5-48D3-9BAF-83F85E7D2EDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
